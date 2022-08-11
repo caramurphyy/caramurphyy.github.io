@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/ui.css">
+    <script type="text/javascript" src="script.js"></script>
+    <title>art</title>
+</head>
+
+<body>
+    <main>
+        <div class="headerContainer">
+            <a class="home" href="index.html">C</a>
+            <div class="header">
+                <a href="index.html">
+                    <div class="tab">
+                        HOME</div>
+                </a>
+                <a href="ui.html">
+                    <div class="tab">
+                        UI/UX
+                    </div>
+                </a>
+                <a href="art.html">
+                    <div class="tab">
+                        ART</div>
+                </a>
+            </div>
+        </div>
+
+        <h2 class="pageHeader">UI/UX DESIGN</h2>
+
+        <div class="pageInfo">
+            As an artist and computer science student, I exercise my passion for both subjects by
+            developing practical and aesthetic user interfaces. Check out some of my projects!
+        </div>
+
+        <div class="allAppContainer">
+            <div class="appContainer" onclick="openAppPage('afg',this)">
+                <div class="appInfoContainer">
+                    <image class="appImage" src="AFGUI/MapSearch.png"></image>
+                    <h3 class="appHeader">HomeWards</h3>
+                    <div class="appInfo">
+                        Mobile app designed to connect the homeless with nearby shelters and resources.
+                        <image class="rightArrowIcon bounceX" src="icons/rightArrow.png"></image>
+                    </div>
+                    <div class="tags-container">
+                        <div class="tag">mobile-app</div>
+                        <div class="tag">user interface</div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="appContainer" onclick="openAppPage('stem',this)">
+
+                <div class="appInfoContainer">
+                    <image class="appImage" src="STEMUI/stem2photo.jpg"></image>
+                    <h3 class="appHeader">Accessibility</h3>
+                    <div class="appInfo">
+                        Custom app for a blind client as a navigation guide for a low cost. The app utilizes live images
+                        from the phone's camera and an algorithm to detect and warn of upcoming obstacles.
+                        <image class="rightArrowIcon bounceX" src="icons/rightArrow.png"></image>
+                    </div>
+                    <div class="tags-container">
+                        <div class="tag">mobile-app</div>
+                        <div class="tag">user experience</div>
+                        <div class="tag">algorithms</div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="appContainer" onclick="openAppPage('sola',this)">
+                <div class="appInfoContainer">
+                    <image class="appImage" src="technovationUI/technovation.PNG"></image>
+                    <h3 class="appHeader">Sola</h3>
+                    <div class="appInfo">Mobile app developed for children with Autism to assist in their learning
+                        and
+                        organization.
+                        <image class="rightArrowIcon bounceX" src="icons/rightArrow.png"></image>
+                    </div>
+                    <div class="tags-container">
+                        <div class="tag">mobile-app</div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div id="afg">
+            <h3>HOMEWARDS</h3>
+            <div class="appPageContainer">
+                <div class="UIImageGrid">
+                    <div class="UIImageColumn">
+                        <image class="UIImage" src="AFGUI/Search.png">
+                            <image class="UIImage" src="AFGUI/MapSearch.png">
+                    </div>
+                    <div class="UIImageColumn">
+                        <image class="UIImage" src="AFGUI/ViewShelter.png">
+                            <image class="UIImage" src="AFGUI/Claim.png">
+                    </div>
+                </div>
+                <div class="appDescriptionContainer">
+                    <p class="app-description">
+                        Information coming soon!
+                    </p>
+                </div>
+            </div>
+            <a href="ui.html">
+                <button class="backAppButton" type="button">ALL PROJECTS</button></a>
+
+        </div>
+        </div>
+
+        <div id="stem">
+            <h3>NAVIGATION APP FOR BLIND CLIENT</h3>
+            <div class="appPageContainer">
+                <div class="UIImageGrid">
+                    <div class="UIImageColumn">
+                        <div class="UIImageContainer">
+                            <image class="UIImage" src="STEMUI/STEM2UI.png" width="50%"></image>
+                            <div class=UIImageDescription>The landing page of the application. A large button to start
+                                the guiding process is presented and speaks when pressed. Press again to stop.</div>
+                        </div>
+                        <div class="UIImageContainer">
+                            <image class="UIImage" src="STEMUI/STEM2CAD.png"></image>
+                            <div class=UIImageDescription>The CAD blueprint of our device used to attach the user's
+                                phone to the cane. </div>
+                        </div>
+                    </div>
+                    <div class="UIImageColumn">
+                        <div class="UIImageContainer">
+                            <image class="UIImage" src="STEMUI//stem2photo.jpg"></image>
+                            <div class=UIImageDescription>Photo of intended use. </div>
+                        </div>
+                        <div class="UIImageContainer">
+                            <image class="UIImage" src="STEMUI/3.png"></image>
+                            <div class=UIImageDescription>How our algorithm would analyze camera feedback. </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="appDescriptionContainer">
+                    <p class="app-description">
+                        This custom app was developed for a blind client as a navigation guide for a low cost. Along
+                        with three others, I worked with the client to test and update our algorithm and interface
+                        over
+                        the course of a year.
+
+                        <br><br>
+                        As part of my group, I spearheaded the development of the user interface and initiated the
+                        integration of Python into our application based in Android Studio.
+                        Developing the user interface was a challenge as the focus was entirely on user experience
+                        rather than appearance. <br><br>
+                    </p>
+                </div>
+
+            </div>
+            <a href="ui.html">
+                <button class="backAppButton" type="button">ALL PROJECTS</button></a>
+        </div>
+
+
+        <div id="sola">
+            <h3>SOLA</h3>
+            <div class="appPageContainer">
+
+                <div class="appDescriptionContainer" id="wip-app-description">
+                    <p class="app-description">
+                        Information coming soon!
+                    </p>
+                </div>
+            </div>
+            <a href="ui.html">
+                <button class="backAppButton" type="button">ALL PROJECTS</button></a>
+        </div>
+        </div>
+
+    </main>
+</body>
+
+</html>
