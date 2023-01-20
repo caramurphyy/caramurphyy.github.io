@@ -1,0 +1,102 @@
+@charset "UTF-8";
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: white;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 800;
+}
+
+.home {
+    color: #0d3c5b;
+    font-size: 5vw;
+    float: left;
+    margin-left: 0.75vw;
+    font-weight: bold;
+    font-family: "Times New Roman";
+}
+
+.header-container {
+    width: 100%;
+}
+
+.header {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 5em;
+}
+
+.tab {
+    transition: color 300ms;
+    background-color: #044571;
+    text-align: center;
+    padding: 0.5em 1em;
+    margin: 1em;
+    color: whitesmoke;
+    font-weight: 500;
+    border-radius: 0.5vw;
+    letter-spacing: 0.2rem;
+    font-family: 'ZCOOL XiaoWei', serif;
+    font-size: 1.6vw;
+}
+
+
+.tab:hover {
+    color: #6791ad;
+}
+
+
+a {
+    text-decoration: none;
+    color: #2077B3;
+}
+
+p {
+    color: #ADD8F6;
+}
+
+
+h2 {
+    margin: 2vw;
+    font-size: 4.6vw;
+    color: #044571;
+    display: flex;
+    justify-content: center;
+    font-family: 'ZCOOL XiaoWei', serif;
+}
+
+h3 {
+    color: #044571;
+    display: flex;
+    justify-content: center;
+    font-size: 2.5vw;
+
+}
+
+.page-header {
+    letter-spacing: 0.3rem;
+    font-family: 'ZCOOL XiaoWei', serif;
+}
+
+h4 {
+    color: #044571;
+    font-size: 1vw;
+}
+
+.contact-container {
+    display: flex;
+    justify-content: center;
+}
+
+.contact-box {
+    display: flex;
+    padding: 1vw 10vw;
+    border-radius: 0%;
+    border-style: solid;
+    border-color: #044571;
+    border-width: 0.5vw;
+    font-size: 1vw;
+}
