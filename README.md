@@ -1,5 +1,4 @@
-# fellowship-project-22
-A website featuring my art and projects as part of Technica Fellowship, second cohort.
+An ever-evolving website showcasing some of my personal projects and art. 
 
 Started in July 2022.
 
